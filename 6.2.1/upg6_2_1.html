@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="sv">
+
+	<head>
+		<title>6.2.1</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			#container {
+				width: 200px;
+				clear: both;
+				margin: auto;
+				margin-top: 50px;
+			}
+			#container input{
+				width: 100%;
+				clear: both;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form action="submit.php" method="POST">
+			
+			<div id="container">
+				<label>Namn:</label>
+				<input type="text" name="namn"><br>
+				<label>Epostadress:</label>
+				<input type="text" name="epost"><br>
+				<label>Hemsida:</label>
+				<input type="text" name="hemsida"><br>
+				<label>Kommentar:</label>
+				<textarea id="kommentar" name="kommentar" rows="5" cols="20"></textarea><br>
+				<input type="submit" value="Skicka">
+			</div>
+			
+		</form>
+	</body>
+</html>
