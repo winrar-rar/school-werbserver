@@ -1,1 +1,2 @@
 # school-werbserver
+School Assignment
